@@ -12,10 +12,10 @@
 
 <img src="https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=Github&logoColor=white">
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor="white">
-<img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=MySQL&logoColor="white">  
-<img src="https://img.shields.io/badge/streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor="white">
-<img src="https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=Selenium&logoColor="white">
-<img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=for-the-badge&logo=VSCode&logoColor="white">  
+<img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysqlL&logoColor="white">  
+<img src="https://img.shields.io/badge/streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor="white">
+<img src="https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=selenium&logoColor="white">
+<img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor="white">  
 
 <br/>
 <br/>
