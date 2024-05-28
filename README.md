@@ -69,7 +69,7 @@ $ streamlit run runner.py
 ## 화면 구성 📺
 | ABOUT | FAQ |
 | :------------: | :------------: |
-| 페이지1  | 페이지2 |
+| <img width="160px" src="https://github.com/Jh-jaehyuk/Jh-jaehyuk.github.io/assets/126551524/ddffa783-bca1-4ff9-a9d7-d0a2bc65bd6c" />  | <img width="160px" src="https://github.com/Jh-jaehyuk/Jh-jaehyuk.github.io/assets/126551524/141cb773-ffdf-458d-8d52-cc922538117e" /> |
 
 ---
 ## 기능 소개 📦
