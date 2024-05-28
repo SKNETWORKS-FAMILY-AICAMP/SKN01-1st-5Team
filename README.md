@@ -67,10 +67,32 @@ $ pip install -r requirements.txt
 
 ### 디렉토리 구조
 ```bash
+.
 ├── README.md
-├── runner1.py
-├── runner2.py
-├── runner3.py
-
+├── crawlingDB
+│   └── helpers
+│       ├── base
+│       │   └── crawling_sele.py
+│       ├── connectTB.py
+│       ├── crawling_genesis.py
+│       ├── crawling_hyundai.py
+│       ├── crawling_kia.py
+│       └── make_brandTB.py
+├── crawling_runner.py
+├── csv_to_db.py
+├── getQuery.py
+├── makeDB_runner.py
+├── result
+│   ├── total_genesis.csv
+│   └── total_kia.csv
+├── runner.py
+└── source
+    ├── home.py
+    ├── make_csv.py
+    ├── multiapp.py
+    ├── page1.py
+    ├── page2.py
+    ├── requirements.txt
+    └── runner.py
 ```
 
