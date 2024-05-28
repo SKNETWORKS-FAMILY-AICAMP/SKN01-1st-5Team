@@ -15,7 +15,7 @@
 |:----------:|:----------:|:----------:|:----------:|
 | <img width="120px" src="https://github.com/Jh-jaehyuk/Jh-jaehyuk.github.io/assets/126551524/33ea2a85-1853-484b-b2a4-c750f854a26b" /> | <img width="120px" src="https://github.com/Jh-jaehyuk/Jh-jaehyuk.github.io/assets/126551524/b24cae67-75d6-48aa-a94e-e847a769f2c0" /> | <img width="120px" src="https://github.com/Jh-jaehyuk/Jh-jaehyuk.github.io/assets/126551524/a3b96d0b-7537-4670-afaa-57279dab5552" /> |  <img width="120px" src="https://github.com/Jh-jaehyuk/Jh-jaehyuk.github.io/assets/126551524/036ed196-ea34-45d8-bc47-58d84c9927c9" /> |
 | [@younghyen7956](https://github.com/younghyen7956) | [@Ah-ram](https://github.com/Ah-ram) | [@Minn-ji](https://github.com/Minn-ji) | [@Jh-jaehyuk](https://github.com/Jh-jaehyuk) |
-| 학교 + 학과 or Something else | 학교 + 학과 or Something else | 학교 + 학과 or Something else | 학교 + 학과 or Something else  |
+| 전북대학교  통계학과 | 서경대학교  나노융합공학과 | 국민대학교  AI빅데이터융합경영학과 | 서울과학기술대학교  기계시스템디자인공학과  |
 
 ## 프로젝트 개요 및 소개
 최근 우리나라는 자동차 산업의 수출액 증가로 인한 경제 성장과 교외 지역으로 이동하는 인구가 증가함에 따라 차량 대수가 증가하고 있습니다. 그러나, 증가하는 차량 수와는 다르게 브랜드에서 제공하는 차량에 관한 질문을 얻는 것은 __각각의 브랜드 홈페이지에 방문하는 것__ 뿐이었습니다.  
@@ -58,9 +58,9 @@ $ pip install -r requirements.txt
 ---
 ## 기능 소개 📦
 
-### 페이지 1에서 제공하는 기능
+### 연도별 전국 차량 등록 현황 변화
  - 선택한 지역의 연도별 차량 등록 현황을 그래프로 제공합니다.
-### 페이지 2에서 제공하는 기능
+### 통합 FAQ 검색 시스템
  - 국내 점유율 상위 3개 브랜드 FAQ를 통합 검색할 수 있는 기능을 제공합니다.
 
 ---
