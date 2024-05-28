@@ -13,12 +13,12 @@
 
 | 김용현 | 정아람 | 최민지 | 한재혁 |
 |:----------:|:----------:|:----------:|:----------:|
-| 사진? | 사진? | 사진? |  사진? |
+| <img width="120px" src="https://github.com/Jh-jaehyuk/Jh-jaehyuk.github.io/assets/126551524/33ea2a85-1853-484b-b2a4-c750f854a26b" /> | <img width="120px" src="https://github.com/Jh-jaehyuk/Jh-jaehyuk.github.io/assets/126551524/b24cae67-75d6-48aa-a94e-e847a769f2c0" /> | <img width="120px" src="https://github.com/Jh-jaehyuk/Jh-jaehyuk.github.io/assets/126551524/a3b96d0b-7537-4670-afaa-57279dab5552" /> |  <img width="120px" src="https://github.com/Jh-jaehyuk/Jh-jaehyuk.github.io/assets/126551524/036ed196-ea34-45d8-bc47-58d84c9927c9" /> |
 | [@younghyen7956](https://github.com/younghyen7956) | [@Ah-ram](https://github.com/Ah-ram) | [@Minn-ji](https://github.com/Minn-ji) | [@Jh-jaehyuk](https://github.com/Jh-jaehyuk) |
 | 학교 + 학과 or Something else | 학교 + 학과 or Something else | 학교 + 학과 or Something else | 학교 + 학과 or Something else  |
 
-## 프로젝트 소개
-증가하는 자동차 수요에 대응하여 자동차를 구매하고 싶은 소비자 또는 자동차에 대한 정보가 필요한 사람들을 위한 웹 환경을 제공합니다.
+## 프로젝트 개요 및 소개
+최근 우리나라는 자동차 산업의 수출액 증가로 인한 경제 성장과 교외 지역으로 이동하는 인구가 증가함에 따라 차량 대수가 증가하고 있습니다. 그러나, 증가하는 차량 대수와는 다르게 차량에 대한 정보를 얻는 것은 
 
 ## 시작 가이드
 ### Requirements
