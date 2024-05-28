@@ -15,7 +15,7 @@
 |:----------:|:----------:|:----------:|:----------:|
 | <img width="120px" src="https://github.com/Jh-jaehyuk/Jh-jaehyuk.github.io/assets/126551524/33ea2a85-1853-484b-b2a4-c750f854a26b" /> | <img width="120px" src="https://github.com/Jh-jaehyuk/Jh-jaehyuk.github.io/assets/126551524/b24cae67-75d6-48aa-a94e-e847a769f2c0" /> | <img width="120px" src="https://github.com/Jh-jaehyuk/Jh-jaehyuk.github.io/assets/126551524/a3b96d0b-7537-4670-afaa-57279dab5552" /> |  <img width="120px" src="https://github.com/Jh-jaehyuk/Jh-jaehyuk.github.io/assets/126551524/036ed196-ea34-45d8-bc47-58d84c9927c9" /> |
 | [@younghyen7956](https://github.com/younghyen7956) | [@Ah-ram](https://github.com/Ah-ram) | [@Minn-ji](https://github.com/Minn-ji) | [@Jh-jaehyuk](https://github.com/Jh-jaehyuk) |
-| 전북대학교  통계학과 | 서경대학교  나노융합공학과 | 국민대학교  AI빅데이터융합경영학과 | 서울과학기술대학교  기계시스템디자인공학과  |
+| 전북대학교</br>통계학과 | 서경대학교</br>나노융합공학과 | 국민대학교</br>AI빅데이터융합경영학과 | 서울과학기술대학교</br>기계시스템디자인공학과  |
 
 ## 프로젝트 개요 및 소개
 최근 우리나라는 자동차 산업의 수출액 증가로 인한 경제 성장과 교외 지역으로 이동하는 인구가 증가함에 따라 차량 대수가 증가하고 있습니다. 그러나, 증가하는 차량 수와는 다르게 브랜드에서 제공하는 차량에 관한 질문을 얻는 것은 __각각의 브랜드 홈페이지에 방문하는 것__ 뿐이었습니다.  
