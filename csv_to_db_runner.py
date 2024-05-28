@@ -48,7 +48,7 @@ def make_full_DB():
 
     genesis_df = pd.read_csv('C:\\Users\\SAMSUNG\\Desktop\\Workspace\\first_project\\result\\total_genesis.csv', encoding='utf-8')
     kia_df = pd.read_csv('C:\\Users\\SAMSUNG\\Desktop\\Workspace\\first_project\\result\\total_kia.csv', encoding='utf-8')
-    # hyundai_df = pd.read_csv('C:\\Users\\SAMSUNG\\Desktop\\Workspace\\first_project\\result\\total_hyundai.csv', encoding='utf-8')
+    hyundai_df = pd.read_csv('C:\\Users\\SAMSUNG\\Desktop\\Workspace\\first_project\\result\\total_hyundai.csv', encoding='utf-8')
 
     # genesis
     g = ConnectTB(db_url)
@@ -76,25 +76,26 @@ def make_full_DB():
     session.commit()
     session.close()
 
+    # hyundai
+    h = ConnectTB(db_url)
+    cur.execute("DROP TABLE IF EXISTS hyundai;")
+    hyundaiTB = h.getTable('hyundai')
+    h.uploadTB()
+    session = h.getSession()
+    for i in range(hyundai_df.shape[0]):
+        hyundai_entry = hyundaiTB(brand='hyundai', title=hyundai_df['title'][i], context=hyundai_df['context'][i])
+        session.add(hyundai_entry)
+    session.commit()
+    session.close()
+
     for tb in ['kia','hyundai,','genesis']:
         SQL = f'ALTER TABLE {tb} ADD FOREIGN KEY (brand) REFERENCES info (name);'
         cur.execute(SQL)
+
     cur.close()
     conn.commit()
     conn.close()
 
-    # # hyundai
-    # h = ConnectTB(db_url)
-    # cur.execute("DROP TABLE IF EXISTS hyundai;")
-    # hyundaiTB = h.getTable('hyundai')
-    # h.uploadTB()
-    # session = h.getSession()
-    # for i in range(hyundai_df.shape[0]):
-    #     hyundai_entry = hyundaiTB(brand='hyundai', title=hyundai_df['title'][i], context=hyundai_df['context'][i])
-    #     session.add(hyundai_entry)
-    # session.commit()
-    # session.close()
-
 if __name__ == '__main__':
     make_info()
-    # make_full_DB()
+    make_full_DB()

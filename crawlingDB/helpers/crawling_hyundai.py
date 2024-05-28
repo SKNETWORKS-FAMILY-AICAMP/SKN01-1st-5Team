@@ -40,7 +40,7 @@ def get_hyundai(keyword=None):
                         
                         y = browser.find_ele_text(f'//*[@id="app"]/div[3]/section/div[2]/div/div[2]/section/div/div[3]/div[1]/div[{k}]/div/div')
                         print(x.text)
-                        title_lst.append(x)
+                        title_lst.append(x.text.strip())
                         con_lst.append(y)
                         time.sleep(2)
 

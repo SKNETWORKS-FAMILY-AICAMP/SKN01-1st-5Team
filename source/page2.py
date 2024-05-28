@@ -6,7 +6,7 @@ from getQuery import get_by_sql
 
 
 def app():
-    st.image("자동차.jpg", caption=None, use_column_width=True)
+    st.image("source\\car.jpg", caption=None, use_column_width=True)
     st.markdown("<h1 style='text-align: center;'>FAQ</h1>", unsafe_allow_html=True)
    
     if st.button('새로고침'):

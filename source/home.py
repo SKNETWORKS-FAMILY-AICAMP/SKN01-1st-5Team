@@ -3,8 +3,6 @@ import streamlit as st
 def app():
     # st.title()
     
-
-
 # HTML과 CSS를 사용하여 풀스크린 유튜브 동영상 설정
     youtube_html = '''
     <style>
@@ -38,6 +36,7 @@ def app():
     youtube_html = youtube_html.replace("VIDEO_ID", "whO-K1nU-H4")  # 실제 동영상 ID로 대체
 
     # HTML을 사용하여 CSS 및 비디오 추가
+    
     st.markdown(youtube_html, unsafe_allow_html=True)
 
     # 애플리케이션 내용

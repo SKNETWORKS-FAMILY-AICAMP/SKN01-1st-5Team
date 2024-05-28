@@ -31,7 +31,7 @@ For building and running the application you need:
 ### Installation
 ``` bash
 $ git clone https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN01-1st-5Team.git
-$ cd SKN01-1st-5Team
+$ cd SKN01-1st-5Team/source
 $ pip install -r requirements.txt
 ```
 ---
@@ -69,31 +69,30 @@ $ pip install -r requirements.txt
 ### 디렉토리 구조
 ```bash
 .
-├── README.md
 ├── crawlingDB
 │   └── helpers
 │       ├── base
-│       │   └── crawling_sele.py
-│       ├── connectTB.py
+│       │   └── crawling_sele.py : Selenium 기반 크롤링 툴 정리
+│       ├── connectTB.py : SQL Alchemy를 이용한 DB 연동
 │       ├── crawling_genesis.py
 │       ├── crawling_hyundai.py
 │       ├── crawling_kia.py
-│       └── make_brandTB.py
-├── crawling_runner.py
-├── csv_to_db.py
-├── getQuery.py
-├── makeDB_runner.py
+│       └── make_brandTB.py : default TABLE 구조 저장
+├── crawling_runner.py : 각 브랜드의 FAQ 크롤링
+├── csv_to_db_runner.py : csv파일을 이용하여 DB에 데이터 넣기
+├── getQuery.py : SQL Alchemy를 이용해 SELECT 쿼리 실행
 ├── result
 │   ├── total_genesis.csv
+│   ├── total_hyundai.csv
 │   └── total_kia.csv
-├── runner.py
+├── runner.py : Streamlit을 이용한 Webapp runner
 └── source
+    ├── car.jpg
     ├── home.py
     ├── make_csv.py
     ├── multiapp.py
     ├── page1.py
     ├── page2.py
-    ├── requirements.txt
-    └── runner.py
+    └── requirements.txt
 ```
 

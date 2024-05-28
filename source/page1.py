@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import make_csv
+from source import make_csv
 import matplotlib.pyplot as plt
 import matplotlib
 import platform
