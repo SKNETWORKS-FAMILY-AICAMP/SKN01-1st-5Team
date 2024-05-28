@@ -30,7 +30,7 @@ def app():
                         st.write(con)
 
             st.link_button('**Genesis FAQ 🚗**',url=r'https://www.genesis.com/kr/ko/support/faq.html')
-
+    
             st.markdown('### KIA 답변')
             title, context = get_by_sql('kia', keyword)            
             if len(title) == 0:
@@ -43,14 +43,21 @@ def app():
 
             st.link_button('**KIA FAQ 🚗**',url=r'https://www.kia.com/kr/customer-service/center/faq')
             
-
-
             
-        
+            st.markdown('### hyundai 답변')
+            title, context = get_by_sql('hyundai', keyword)            
+            if len(title) == 0:
+                st.write('관련 FAQ가 존재하지 않습니다. 다른 단어로 검색해보세요!')
+            else:
+                for ti, con in zip(title, context):
+                    on = st.toggle(f'**{ti}**')
+                    if on:
+                        st.write(con)
+
+            st.link_button('**hyundai FAQ 🚗**',url=r'https://www.hyundai.com/kr/ko/e/customer/center/faq')
 
 
 
     
     
         
-

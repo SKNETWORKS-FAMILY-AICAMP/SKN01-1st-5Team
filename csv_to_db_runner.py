@@ -2,9 +2,10 @@ import pandas as pd
 from crawlingDB.helpers.connectTB import ConnectTB
 import pymysql
 # info TB 만들기
+   
 
-def make_info():
-    user = "encore"; password = "1006"; host = "localhost"; port = 3306; db = "car"
+def make_info(password='encore1234'):
+    user = "encore"; host = "localhost"; port = 3306; db = "car"
     conn = pymysql.connect(host=host, user=user, password=password, db=db, charset='utf8')
     cur = conn.cursor()
 
@@ -41,7 +42,7 @@ def make_info():
 
 # 디비에 csv 밀어넣기
 def make_full_DB():
-    user = "encore"; password = "1006"; host = "localhost"; port = 3306; db = "car"
+    user = "encore"; password = "encore1234"; host = "localhost"; port = 3306; db = "car"
     db_url = f"mysql+pymysql://{user}:{password}@{host}:{port}/{db}"
     conn = pymysql.connect(host=host, user=user, password=password, db=db, charset='utf8')
     cur = conn.cursor()
@@ -88,7 +89,7 @@ def make_full_DB():
     session.commit()
     session.close()
 
-    for tb in ['kia','hyundai,','genesis']:
+    for tb in ['kia','hyundai','genesis']:
         SQL = f'ALTER TABLE {tb} ADD FOREIGN KEY (brand) REFERENCES info (name);'
         cur.execute(SQL)
 

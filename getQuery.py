@@ -1,7 +1,7 @@
 from crawlingDB.helpers.connectTB import ConnectTB
 
-def get_by_sql(table_name, keyword):
-    user = "encore"; password = "1006"; host = "localhost"; port = 3306; db = "car"
+def get_by_sql(table_name, keyword, password='encore1234'):
+    user = "encore"; host = "localhost"; port = 3306; db = "car"
     db_url = f"mysql+pymysql://{user}:{password}@{host}:{port}/{db}"
 
     conn = ConnectTB(db_url)

@@ -1,27 +1,29 @@
 import streamlit as st
+import pandas as pd
+import numpy as np
+from source import make_csv
 import matplotlib.pyplot as plt
 import matplotlib
-
+import platform
 from st_on_hover_tabs import on_hover_tabs
 
+
+from source.multiapp import MultiApp
+from source.home import app as home
 from source.page1 import app as page1
 from source.page2 import app as page2
-from source.home import app as home
-import matplotlib.font_manager as fm
 
-font_path = "C:\\Users\\SAMSUNG\\AppData\\Local\\Microsoft\\Windows\\Fonts\\BMJUA_ttf.ttf"
-font = fm.FontProperties(fname=font_path).get_name()
-matplotlib.rc('font', family=font)
+
 
 
 # 폰트 파일 경로
-# font_path = '/Library/Fonts/YourFont.ttf'
-# font_path = r"C:\Windows\Fonts\malgunbd.ttf"
+
+font_path = r'source\\KAKAOREGULAR.TTF'
 font_name = plt.matplotlib.font_manager.FontProperties(fname=font_path).get_name()
 
-plt.rcParams['font.family'] = font_name
-plt.rc('font', family=font_name)
-plt.rcParams['axes.unicode_minus'] = False
+# plt.rcParams['font.family'] = font_name
+# plt.rc('font', family=font_name)
+# plt.rcParams['axes.unicode_minus'] = False
 
 
 
@@ -31,7 +33,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 with st.sidebar:
     selected_tab = on_hover_tabs(tabName=['Home', 'About', 'FAQ'], 
                      iconName=['home', 'lightbulb', 'search'],
-                     styles = {'navtab': {'background-color':'#000',
+                     styles = {'navtab': {'background-color':'transparent',
                                           'color': '#818181',
                                           'font-size': '15px',
                                           'transition': '.3s',

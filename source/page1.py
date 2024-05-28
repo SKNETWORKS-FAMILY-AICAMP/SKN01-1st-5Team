@@ -89,13 +89,20 @@ def app():
     
     fig, ax1 = plt.subplots()
     ax1.plot(df1['연도'], df1['차량등록현황'], color='red', marker='o')
-
+    ax1.set_xlabel('연도')  # x축 이름 설정
+    ax1.set_ylabel('차량등록현황', color='red')  # 첫 번째 y축 이름 설정
+    ax1.tick_params(axis='y', labelcolor='red')    
+    # 두 번째 y축 (수출액)
     ax2 = ax1.twinx()
     ax2.plot(df1['연도'], df2['수출액'], color='blue', marker='o')
-    st.pyplot()
+    ax2.set_ylabel('수출액', color='blue')  # 두 번째 y축 이름 설정
+    ax2.tick_params(axis='y', labelcolor='blue')    
+    # Streamlit에 플롯 표시
+    st.pyplot(fig)
+        
+        
+    
+    
 
    
 
-    
-    
-    
