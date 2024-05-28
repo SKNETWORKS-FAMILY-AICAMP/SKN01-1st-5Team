@@ -1,2 +1,2 @@
-<img src="C:\Users\SAMSUNG\Desktop\Workspace\image.png" width="1000" height="700"/>
+<img src="C:\Users\SAMSUNG\Desktop\Workspace\image.png" width="800" height="600"/>
 
